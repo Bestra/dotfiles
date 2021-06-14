@@ -1,0 +1,26 @@
+[user]
+    name = Chris Westra
+    email = bestra@github.com
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    pager = true
+    status = auto
+    ui = true
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+[push]
+    default = current
+[pull]
+	ff = only
+[core]
+    autocrlf = input
+    pager = less -FRSX
+[alias]
+    ci = commit
+    co = checkout
+    st = status -sb
+    lg = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(white)
