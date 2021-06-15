@@ -24,5 +24,6 @@
     co = checkout
     st = status -sb
     lg = log --since=1.week --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(white)'
+    please = push --force-with-lease
 [tig]
     since = 1.week
