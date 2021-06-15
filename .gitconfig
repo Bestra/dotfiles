@@ -27,3 +27,6 @@
     please = push --force-with-lease
 [tig]
     since = 1.week
+[tig "bind"]
+	main = = !git commit --fixup=%(commit)
+	main = <ctrl-r> !git rebase --autosquash -i %(commit)
